@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/itineraries/:id",
-      "destination": "https://mbuhsdqmobjanyonbtnx.supabase.co/functions/v1/share-itinerary?id=:id"
+      "destination": "/api/share?id=:id"
     }
   ]
 }
